@@ -32,9 +32,9 @@ conn_str_params = {pair.split('=')[0]: pair.split('=')[1] for pair in conn_str.s
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': conn_str_params['postgresql-test-230216'],
-        'HOST': conn_str_params['postgresql-test-230216.postgres.database.azure.com'],
-        'USER': conn_str_params['postgresadmin'],
-        'PASSWORD': conn_str_params['P@ssw0rd123456789'],
+        'NAME': conn_str_params['webapps-test-20230216-database'],
+        'HOST': conn_str_params['webapps-test-20230216-server.postgres.database.azure.com'],
+        'USER': conn_str_params['sjhjjwuxwj'],
+        'PASSWORD': conn_str_params['K08R0Q2Q53MY6054$'],
     }
 }
